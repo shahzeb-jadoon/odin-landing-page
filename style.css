@@ -156,8 +156,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 160px 320px;
-    padding: 80px 160px;
+    margin: 120px 320px;
+    padding: 60px 160px;
     border-radius: 8px;
 }
 
