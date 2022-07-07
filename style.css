@@ -48,7 +48,7 @@ body {
     justify-content: center;
     padding: 40px;
     gap: 40px;
-    margin: 80px;
+    margin: 120px;
 }
 
 .title-description {
@@ -88,8 +88,8 @@ body {
 .info-section {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-    gap: 40px;
+    padding: 80px;
+    gap: 80px;
     margin-bottom: 40px;
 }
 
@@ -102,7 +102,7 @@ body {
 .info-content {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 72px;
 }
 
 .info-combo {
@@ -121,4 +121,31 @@ body {
 .info-text {
     width: 150px;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 430px;
+    border: 80px solid #e5e7eb;
+}
+
+.grey-background {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-person {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+    padding: 0 16px;
 }
