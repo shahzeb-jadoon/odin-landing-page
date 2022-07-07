@@ -186,3 +186,8 @@ body {
 .call-to-action-section .sign-up-button {
     border: 2px solid white;
 }
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
