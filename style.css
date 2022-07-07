@@ -90,6 +90,7 @@ body {
     flex-direction: column;
     padding: 40px;
     gap: 40px;
+    margin-bottom: 40px;
 }
 
 .info-title {
@@ -104,14 +105,20 @@ body {
     gap: 32px;
 }
 
+.info-combo {
+    display: flex;
+    flex-direction: column;
+}
+
 .info-image {
-    width: 150px;
-    height: 150px;
-    border: 3px #3882f6;
+    width: 145px;
+    height: 145px;
+    border: 3px solid #3882f6;
     border-radius: 8px;
     flex-shrink: 0;
 }
 
 .info-text {
     width: 150px;
+    text-align: center;
 }
