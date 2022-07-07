@@ -45,4 +45,42 @@ body {
 
 .title-section {
     display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+    margin: 16px 40px;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title-info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-image {
+    width: 650px;
+    height: 290px;
+    background-color: #8d93a5;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 8px;
+    align-self: flex-start;
+    border: 0;
 }
