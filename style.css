@@ -109,6 +109,7 @@ body {
     height: 150px;
     border: 3px #3882f6;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .info-text {
