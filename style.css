@@ -84,3 +84,16 @@ body {
     align-self: flex-start;
     border: 0;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
