@@ -97,3 +97,20 @@ body {
     font-size: 36px;
     font-weight: bolder;
 }
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 3px #3882f6;
+    border-radius: 8px;
+}
+
+.info-text {
+    width: 150px;
+}
